@@ -11,9 +11,10 @@
 <body>
   <div class="card-container">
     <div class="product-card">
-      <div class="perfume">
-      <img src="./images/image-product-desktop.jpg" alt="perfume" srcset="">
-    </div>
+      <img class="perfume" srcset="./images/image-product-desktop.jpg 600w, ./images/image-product-mobile.jpg 686w"
+                    sizes="(max-width: 680px) 686px, 300px"
+           src="./images/image-product-desktop.jpg"
+      " alt="perfume" srcset="">
     <div class="texto">
       <p class="perfume-title">P E R F U M E</p>
       <P class="perfume-name">Gabrielle Essence Eau De Parfum</P>
@@ -31,7 +32,7 @@
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Jrm04">ByJehiko!</a>.
+    Coded by <a href="https://github.com/Jrm04" target="_blank">ByJehiko!</a>.
   </div>
 </body>
 <link rel="stylesheet" href="styless.css">
