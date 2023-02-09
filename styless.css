@@ -133,6 +133,7 @@ body{
 @media only screen and (max-width: 600px) {
     .card-container{
         display: flex;
+        height: 100vh;
     }
 
     .product-card{
@@ -199,5 +200,9 @@ body{
         font-size: 30px;
         color: var(--Dark_cyan);
         font-weight:700;
+    }
+
+    .attribution{
+        margin-bottom: 30px;
     }
 }
