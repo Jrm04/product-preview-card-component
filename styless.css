@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap'); */
 
 
 :root{
@@ -24,7 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     flex-wrap: wrap;
 }
 
@@ -124,6 +123,7 @@ body{
 
 .attribution{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .attribution a {
